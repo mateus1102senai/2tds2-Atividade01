@@ -8,6 +8,6 @@ routes.get("/", (req, rest) => {
     return rest.status(200).send({message: "Olá Chefe, Bom dia!!"})
 })
 
-routes.use("/canditados", candidatosRoutes);
+routes.use("/candidatos", candidatosRoutes);
 
 export default routes;
